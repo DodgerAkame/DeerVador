@@ -4,7 +4,14 @@ public class Hero {
 
 	private int max_jauge;
 	private int jauge;
+	private int level;
 	
+	public int getLevel() {
+		return level;
+	}
+	public void setLevel(int level) {
+		this.level = level;
+	}
 	public int getMax_jauge() {
 		return max_jauge;
 	}
