@@ -8,10 +8,14 @@
 <!DOCTYPE html>
 <html>
 <head>
+<<<<<<< HEAD
+<link rel="stylesheet" href="${pageContext.request.contextPath}/css/style.css">
+=======
 <title>Gestion des questions</title>
 <meta charset="utf-8" />
 <link rel="stylesheet"
 	href="${pageContext.request.contextPath}/css/style.css">
+>>>>>>> origin/master
 </head>
 <body>
 
