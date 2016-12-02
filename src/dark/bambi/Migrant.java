@@ -8,7 +8,7 @@ import com.googlecode.objectify.annotation.Id;
 @Entity
 public class Migrant {
 	@Id
-	long id;
+	Long id;
 	long range = 1234L;
 	
 	private String name;
