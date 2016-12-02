@@ -8,10 +8,25 @@
 <!DOCTYPE html>
 <html>
 <head>
+<<<<<<< HEAD
 <link rel="stylesheet" href="${pageContext.request.contextPath}/css/style.css">
+=======
+<title>Gestion des questions</title>
+<meta charset="utf-8" />
+<link rel="stylesheet"
+	href="${pageContext.request.contextPath}/css/style.css">
+>>>>>>> origin/master
 </head>
 <body>
+
+	<div id="headercontainer">
+		<div id="header">
+			<h1>DeerVador</h1>
+		</div>
+</div>
+<div id="content">
 	<form method="post">
+	
 		<label> Nom : <input type="text" name="nameForm" /></label><br>
 		<label> Prénom : <input type="text" name="lastnameForm">
 		</label><br> <label> Région : <input type="text" name="areaForm"></label><br>
@@ -19,6 +34,13 @@
 				type="radio" name="familyForm" value="yes">Oui</label><label><input
 				type="radio" name="familyForm" value="no">Non</label></label> <br> <input
 			type="submit" value="Octroyer un visa" />
+			
 	</form>
+	</div>
+	<div id="footer">
+		DEERVADOR<br> Template CSS © <a
+			href="http://www.oswd.org/design/preview/id/3495/">AJ Industries
+			Australia Website Design</a>
+</div>
 </body>
 </html>
