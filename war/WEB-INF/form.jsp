@@ -7,7 +7,9 @@
 
 <!DOCTYPE html>
 <html>
-<%-- <link rel="stylesheet" href="${pageContext.request.contextPath}/css/style.css""> --%>
+<head>
+<link rel="stylesheet" href="${pageContext.request.contextPath}/css/style.css">
+</head>
 <body>
 	<form method="post">
 		<label> Nom : <input type="text" name="nameForm" /></label><br>
