@@ -1,5 +1,7 @@
 package dark.bambi;
 
+import java.util.Random;
+
 import com.googlecode.objectify.annotation.Entity;
 import com.googlecode.objectify.annotation.Id;
 
@@ -13,6 +15,17 @@ public class Migrant {
 	private String surname;
 	private String region;
 	private boolean family;
+	
+	public Migrant(String n, String s, String reg, boolean f){
+		Random r = new Random();
+		id = (long) (r.nextDouble() * range);
+		
+		this.name=n;
+		this.surname=s;
+		this.region=reg;
+		this.family=f;
+		
+	}
 	
 	public boolean isFamily() {
 		return family;
